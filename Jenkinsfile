@@ -38,7 +38,7 @@ pipeline {
       agent any
       steps {
         script {
-          sh 'curl http://172.17.0.1 | grep -q "Bienvenue"'
+          sh 'curl http://172.17.0.1 | grep -q "Welcome"'
         }
       }
     }
