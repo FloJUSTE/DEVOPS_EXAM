@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    IMAGE_NAME = "DEVOPS_EXAM"
+    IMAGE_NAME = "examdevops"
     IMAGE_TAG = "latest"
     ID_DOCKER = "papaflo"
     DOCKER_CRED = credentials('dockerhub_pwd')
